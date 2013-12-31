@@ -39,13 +39,14 @@ Scaffolds out a complete project directory structure for you:
     .
     ├── src
     │   ├── module.coffee
+    ├── test
+    |   ├── module.spec.coffee
+    |   └── mocha.opts
     ├── .gitignore
+    ├── .travis.yml
     ├── LICENSE
     ├── package.json
-    ├── README.md
-    └── test
-        ├── module.spec.coffee
-        └── mocha.opts
+    └──  README.md
 
 ## Other modules
 

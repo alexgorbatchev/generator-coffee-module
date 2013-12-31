@@ -1,7 +1,7 @@
 {
   "name": "generator-coffee-module",
-  "version": "1.0.0",
-  "description": "A generator for Yeoman",
+  "version": "0.5.0",
+  "description": "A generator for Yeoman to scaffold Node modules written in CoffeeScript",
   "keywords": [
     "yeoman-generator"
   ],
@@ -36,9 +36,5 @@
     "node": ">=0.8.0",
     "npm": ">=1.2.10"
   },
-  "licenses": [
-    {
-      "type": "MIT"
-    }
-  ]
+  "license": "MIT"
 }
