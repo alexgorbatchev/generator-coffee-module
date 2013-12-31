@@ -1,0 +1,44 @@
+{
+  "name": "generator-coffee-module",
+  "version": "1.0.0",
+  "description": "A generator for Yeoman",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "homepage": "https://github.com/alexgorbatchev/generator-coffee-module",
+  "bugs": "https://github.com/alexgorbatchev/generator-coffee-module/issues",
+  "author": {
+    "name": "Alex Gorbatchev",
+    "email": "",
+    "url": "https://github.com/alexgorbatchev"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexgorbatchev/generator-coffee-module.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/*.spec.coffee"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.15.0-pre.3",
+    "coffee-errors": "~0.8.5",
+    "coffee-script": "~1.6.3",
+    "github": "~0.1.12"
+  },
+  "devDependencies": {
+    "mocha": ">=1.14.0"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
