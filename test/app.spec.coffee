@@ -35,5 +35,5 @@ describe 'app', ->
       moduleName: 'temp'
 
     @app.run {}, ->
-      helpers.assertFiles expected
+      helpers.assertFile expected
       done()

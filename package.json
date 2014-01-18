@@ -1,6 +1,6 @@
 {
   "name": "generator-coffee-module",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "A generator for Yeoman to scaffold Node modules written in CoffeeScript",
   "keywords": [
     "yeoman-generator"
@@ -21,7 +21,7 @@
     "test": "./node_modules/.bin/mocha test/*.spec.coffee"
   },
   "dependencies": {
-    "yeoman-generator": "~0.15.0-pre.3",
+    "yeoman-generator": "~0.16.0",
     "coffee-errors": "~0.8.5",
     "coffee-script": "~1.6.3",
     "github": "~0.1.12"
