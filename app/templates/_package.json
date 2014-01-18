@@ -26,8 +26,8 @@
     "coffee-errors": "~0.8.5",
     "sinon": "~1.7.3",
     "sinon-chai": "~2.4.0",
-    "mocha": "~1.14.0",
-    "chai": "~1.6.0"
+    "mocha": "~1.17.0",
+    "chai": "~1.8.1"
   },
   "engines": {
     "node": ">=0.10.0",
