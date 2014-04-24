@@ -18,12 +18,12 @@
     "url": "https://github.com/alexgorbatchev/generator-coffee-module.git"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha test/*.spec.coffee"
+    "test": "mocha test/*.spec.coffee"
   },
   "dependencies": {
     "yeoman-generator": "~0.16.0",
     "coffee-errors": "~0.8.5",
-    "coffee-script": "~1.6.3",
+    "coffee-script": "~1.7.1",
     "github": "~0.1.12"
   },
   "devDependencies": {
