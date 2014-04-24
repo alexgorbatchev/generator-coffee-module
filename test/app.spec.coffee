@@ -17,8 +17,8 @@ describe 'app', ->
       .travis.yml
       .gitignore
       test/mocha.opts
-      test/temp.spec.coffee
-      src/temp.coffee
+      test/test-module.spec.coffee
+      src/test-module.coffee
     """.split /\s+/g
 
     helpers.mockPrompt @app, someOption: true
@@ -32,7 +32,7 @@ describe 'app', ->
 
     helpers.mockPrompt @app,
       githubUser: 'alexgorbatchev'
-      moduleName: 'temp'
+      moduleName: 'test-module'
 
     @app.run {}, ->
       helpers.assertFile expected
