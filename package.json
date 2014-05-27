@@ -21,7 +21,7 @@
     "test": "mocha test/*.spec.coffee"
   },
   "dependencies": {
-    "yeoman-generator": "~0.16.0",
+    "yeoman-generator": "~0.17.0",
     "coffee-errors": "~0.8.5",
     "coffee-script": "~1.7.1",
     "github": "~0.1.12"
