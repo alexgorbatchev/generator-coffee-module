@@ -16,6 +16,8 @@ describe 'app', ->
       LICENSE
       .travis.yml
       .gitignore
+      gulpfile.js
+      gulpfile.coffee
       test/mocha.opts
       test/test-module.spec.coffee
       src/test-module.coffee
