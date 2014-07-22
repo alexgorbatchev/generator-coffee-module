@@ -65,6 +65,8 @@ class CoffeeModuleGenerator extends yeoman.generators.Base
   projectfiles: ->
     @template '_package.json', 'package.json'
     @template '_travis.yml', '.travis.yml'
+    @template '_gulpfile.js', 'gulpfile.js'
+    @template '_gulpfile.coffee', 'gulpfile.coffee'
     @template 'README.md'
     @template 'LICENSE'
 
