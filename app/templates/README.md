@@ -3,7 +3,6 @@
 [![Dependency status](https://david-dm.org/<%= githubUser %>/<%= _.slugify(appname) %>.svg)](https://david-dm.org/<%= githubUser %>/<%= _.slugify(appname) %>)
 [![devDependency Status](https://david-dm.org/<%= githubUser %>/<%= _.slugify(appname) %>/dev-status.svg)](https://david-dm.org/<%= githubUser %>/<%= _.slugify(appname) %>#info=devDependencies)
 [![Build Status](https://secure.travis-ci.org/<%= githubUser %>/<%= _.slugify(appname) %>.svg?branch=master)](https://travis-ci.org/<%= githubUser %>/<%= _.slugify(appname) %>)
-
 [![NPM](https://nodei.co/npm/<%= _.slugify(appname) %>.svg)](https://npmjs.org/package/<%= _.slugify(appname) %>)
 
 ## Installation
