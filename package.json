@@ -1,6 +1,6 @@
 {
   "name": "generator-coffee-module",
-  "version": "0.5.5",
+  "version": "0.6.0",
   "description": "A generator for Yeoman to scaffold Node modules written in CoffeeScript",
   "keywords": [
     "yeoman-generator"
