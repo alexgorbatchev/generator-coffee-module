@@ -1,13 +1,13 @@
 # generator-coffee-module
 
+[![GitTip](http://img.shields.io/gittip/alexgorbatchev.svg?style=flat)](https://www.gittip.com/alexgorbatchev/)
+[![Dependency status](http://img.shields.io/david/alexgorbatchev/generator-coffee-module.svg?style=flat)](https://david-dm.org/alexgorbatchev/generator-coffee-module)
+[![devDependency Status](http://img.shields.io/dev/alexgorbatchev/generator-coffee-module.svg?style=flat)](https://david-dm.org/alexgorbatchev/generator-coffee-module#info=devDependencies)
+[![Build Status](http://img.shields.io/alexgorbatchev/generator-coffee-module.svg?style=flat&branch=master)](https://travis-ci.org/alexgorbatchev/generator-coffee-module)
+
+[![NPM](https://nodei.co/npm/generator-coffee-module.svg?style=flat)](https://npmjs.org/package/generator-coffee-module)
+
 [Yeoman](http://yeoman.io) generator that scaffolds out a new Node.js module to be published on NPM written in CoffeeScript.
-
-[![Dependency status](https://david-dm.org/alexgorbatchev/generator-coffee-module.png)](https://david-dm.org/alexgorbatchev/generator-coffee-module)
-[![devDependency Status](https://david-dm.org/alexgorbatchev/generator-coffee-module/dev-status.png)](https://david-dm.org/alexgorbatchev/generator-coffee-module#info=devDependencies)
-[![Build Status](https://secure.travis-ci.org/alexgorbatchev/generator-coffee-module.png?branch=master)](https://travis-ci.org/alexgorbatchev/generator-coffee-module)
-
-[![NPM](https://nodei.co/npm/generator-coffee-module.png?downloads=true)](https://npmjs.org/package/generator-coffee-module)
-
 
 ![](http://i.imgur.com/JHaAlBJ.png)
 
@@ -17,8 +17,8 @@ Please help me spend more time developing and maintaining awesome modules like t
 
 The absolute best thing to do is to sign up with [Gittip](http://gittip.com) if you haven't already and donate just $1 a week. That is roughly a cup of coffee per month. Also, please do donate to many other amazing open source projects!
 
-[![Gittip](http://img.shields.io/gittip/alexgorbatchev.png)](https://www.gittip.com/alexgorbatchev/)
-[![PayPayl donate button](http://img.shields.io/paypal/donate.png?color=yellow)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PSDPM9268P8RW "Donate once-off to this project using Paypal")
+[![Gittip](http://img.shields.io/gittip/alexgorbatchev.png?style=flat)](https://www.gittip.com/alexgorbatchev/)
+[![PayPayl donate button](http://img.shields.io/paypal/donate.png?color=yellow?style=flat)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PSDPM9268P8RW "Donate once-off to this project using Paypal")
 
 ## Installing
 
