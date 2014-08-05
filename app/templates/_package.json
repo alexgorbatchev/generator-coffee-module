@@ -16,8 +16,7 @@
     "url": "<%= githubUrl %>/<%= _.slugify(appname) %>.git"
   },
   "scripts": {
-    "test": "gulp test",
-    "pretest": "gulp"
+    "test": "gulp test"
   },
   "dependencies": {
   },
