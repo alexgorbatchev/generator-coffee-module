@@ -1,9 +1,10 @@
 # <%= _.slugify(appname) %>
 
-[![Dependency status](https://david-dm.org/<%= githubUser %>/<%= _.slugify(appname) %>.svg)](https://david-dm.org/<%= githubUser %>/<%= _.slugify(appname) %>)
-[![devDependency Status](https://david-dm.org/<%= githubUser %>/<%= _.slugify(appname) %>/dev-status.svg)](https://david-dm.org/<%= githubUser %>/<%= _.slugify(appname) %>#info=devDependencies)
-[![Build Status](https://secure.travis-ci.org/<%= githubUser %>/<%= _.slugify(appname) %>.svg?branch=master)](https://travis-ci.org/<%= githubUser %>/<%= _.slugify(appname) %>)
-[![NPM](https://nodei.co/npm/<%= _.slugify(appname) %>.svg)](https://npmjs.org/package/<%= _.slugify(appname) %>)
+[![Dependency status](http://img.shields.io/david/<%= githubUser %>/<%= _.slugify(appname) %>.svg?style=flat)](https://david-dm.org/<%= githubUser %>/<%= _.slugify(appname) %>)
+[![devDependency Status](http://img.shields.io/dev/<%= githubUser %>/<%= _.slugify(appname) %>.svg?style=flat)](https://david-dm.org/<%= githubUser %>/<%= _.slugify(appname) %>#info=devDependencies)
+[![Build Status](http://img.shields.io/<%= githubUser %>/<%= _.slugify(appname) %>.svg?style=flat&branch=master)](https://travis-ci.org/<%= githubUser %>/<%= _.slugify(appname) %>)
+
+[![NPM](https://nodei.co/npm/<%= _.slugify(appname) %>.svg?style=flat)](https://npmjs.org/package/<%= _.slugify(appname) %>)
 
 ## Installation
 
