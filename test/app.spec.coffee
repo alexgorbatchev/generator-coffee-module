@@ -18,7 +18,6 @@ describe 'app', ->
       .gitignore
       gulpfile.js
       gulpfile.coffee
-      test/mocha.opts
       test/test-module.spec.coffee
       src/test-module.coffee
     """.split /\s+/g
