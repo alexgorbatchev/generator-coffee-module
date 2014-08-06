@@ -1,8 +1,8 @@
 # <%= _.slugify(appname) %>
 
 [![Dependency status](http://img.shields.io/david/<%= githubUser %>/<%= _.slugify(appname) %>.svg?style=flat)](https://david-dm.org/<%= githubUser %>/<%= _.slugify(appname) %>)
-[![devDependency Status](http://img.shields.io/dev/<%= githubUser %>/<%= _.slugify(appname) %>.svg?style=flat)](https://david-dm.org/<%= githubUser %>/<%= _.slugify(appname) %>#info=devDependencies)
-[![Build Status](http://img.shields.io/<%= githubUser %>/<%= _.slugify(appname) %>.svg?style=flat&branch=master)](https://travis-ci.org/<%= githubUser %>/<%= _.slugify(appname) %>)
+[![devDependency Status](http://img.shields.io/david/dev/<%= githubUser %>/<%= _.slugify(appname) %>.svg?style=flat)](https://david-dm.org/<%= githubUser %>/<%= _.slugify(appname) %>#info=devDependencies)
+[![Build Status](http://img.shields.io/travis/<%= githubUser %>/<%= _.slugify(appname) %>.svg?style=flat&branch=master)](https://travis-ci.org/<%= githubUser %>/<%= _.slugify(appname) %>)
 
 [![NPM](https://nodei.co/npm/<%= _.slugify(appname) %>.svg?style=flat)](https://npmjs.org/package/<%= _.slugify(appname) %>)
 
