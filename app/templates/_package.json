@@ -1,22 +1,22 @@
 {
-  "name": "<%= _.slugify(appname) %>",
+  "name": "<%= slug %>",
   "version": "1.0.0",
   "description": "Awesome module",
   "keywords": [
     "keyword1",
     "keyword2"
   ],
-  "homepage": "<%= githubUrl %>/<%= _.slugify(appname) %>",
-  "bugs": "<%= githubUrl %>/<%= _.slugify(appname) %>/issues",
+  "homepage": "<%= githubUrl %>/<%= slug %>",
+  "bugs": "<%= githubUrl %>/<%= slug %>/issues",
   "author": {
     "name": "<%= realname %>",
     "email": "<%= email %>",
     "url": "<%= githubUrl %>"
   },
-  "main": "./lib/<%= _.slugify(appname) %>.js",
+  "main": "./lib/<%= slug %>.js",
   "repository": {
     "type": "git",
-    "url": "<%= githubUrl %>/<%= _.slugify(appname) %>.git"
+    "url": "<%= githubUrl %>/<%= slug %>.git"
   },
   "scripts": {
     "test": "gulp test"

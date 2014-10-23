@@ -18,9 +18,7 @@ githubUserInfo = (name, cb) ->
 
   github = new GitHubApi githubOptions
 
-  github.user.getFrom
-    user: name
-  , (err, res) ->
+  github.user.getFrom user: name, (err, res) ->
     throw err  if err
     cb JSON.parse JSON.stringify res
 
@@ -49,8 +47,8 @@ class CoffeeModuleGenerator extends yeoman.generators.Base
 
     @prompt prompts, (props) =>
       @githubUser = props.githubUser
-      @moduleName = props.moduleName
-      @appname = @moduleName
+      @appname    = props.moduleName
+      @slug       = @_.slugify @appname
       done()
 
   userInfo: ->
@@ -74,10 +72,10 @@ class CoffeeModuleGenerator extends yeoman.generators.Base
     @copy '_gitignore', '.gitignore'
 
   app: ->
-    @template 'src/index.coffee', "src/#{@moduleName}.coffee"
+    @template 'src/index.coffee', "src/#{@appname}.coffee"
 
   tests: ->
     @mkdir 'test'
-    @template 'test/spec.coffee', "test/#{@moduleName}.spec.coffee"
+    @template 'test/spec.coffee', "test/#{@appname}.spec.coffee"
 
 module.exports = CoffeeModuleGenerator

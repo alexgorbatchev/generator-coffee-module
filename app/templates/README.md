@@ -1,14 +1,14 @@
-# <%= _.slugify(appname) %>
+# <%= slug %>
 
-[![Dependency status](http://img.shields.io/david/<%= githubUser %>/<%= _.slugify(appname) %>.svg?style=flat)](https://david-dm.org/<%= githubUser %>/<%= _.slugify(appname) %>)
-[![devDependency Status](http://img.shields.io/david/dev/<%= githubUser %>/<%= _.slugify(appname) %>.svg?style=flat)](https://david-dm.org/<%= githubUser %>/<%= _.slugify(appname) %>#info=devDependencies)
-[![Build Status](http://img.shields.io/travis/<%= githubUser %>/<%= _.slugify(appname) %>.svg?style=flat&branch=master)](https://travis-ci.org/<%= githubUser %>/<%= _.slugify(appname) %>)
+[![Dependency status](http://img.shields.io/david/<%= githubUser %>/<%= slug %>.svg?style=flat)](https://david-dm.org/<%= githubUser %>/<%= slug %>)
+[![devDependency Status](http://img.shields.io/david/dev/<%= githubUser %>/<%= slug %>.svg?style=flat)](https://david-dm.org/<%= githubUser %>/<%= slug %>#info=devDependencies)
+[![Build Status](http://img.shields.io/travis/<%= githubUser %>/<%= slug %>.svg?style=flat&branch=master)](https://travis-ci.org/<%= githubUser %>/<%= slug %>)
 
-[![NPM](https://nodei.co/npm/<%= _.slugify(appname) %>.svg?style=flat)](https://npmjs.org/package/<%= _.slugify(appname) %>)
+[![NPM](https://nodei.co/npm/<%= slug %>.svg?style=flat)](https://npmjs.org/package/<%= slug %>)
 
 ## Installation
 
-    npm install <%= _.slugify(appname) %>
+    npm install <%= slug %>
 
 ## Usage Example
 
