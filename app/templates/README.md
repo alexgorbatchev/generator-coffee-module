@@ -1,8 +1,8 @@
 # <%= slug %>
 
-[![Dependency status](http://img.shields.io/david/<%= githubUser %>/<%= slug %>.svg?style=flat)](https://david-dm.org/<%= githubUser %>/<%= slug %>)
-[![devDependency Status](http://img.shields.io/david/dev/<%= githubUser %>/<%= slug %>.svg?style=flat)](https://david-dm.org/<%= githubUser %>/<%= slug %>#info=devDependencies)
-[![Build Status](http://img.shields.io/travis/<%= githubUser %>/<%= slug %>.svg?style=flat&branch=master)](https://travis-ci.org/<%= githubUser %>/<%= slug %>)
+[![Dependency status](https://img.shields.io/david/<%= githubUser %>/<%= slug %>.svg?style=flat)](https://david-dm.org/<%= githubUser %>/<%= slug %>)
+[![devDependency Status](https://img.shields.io/david/dev/<%= githubUser %>/<%= slug %>.svg?style=flat)](https://david-dm.org/<%= githubUser %>/<%= slug %>#info=devDependencies)
+[![Build Status](https://img.shields.io/travis/<%= githubUser %>/<%= slug %>.svg?style=flat&branch=master)](https://travis-ci.org/<%= githubUser %>/<%= slug %>)
 
 [![NPM](https://nodei.co/npm/<%= slug %>.svg?style=flat)](https://npmjs.org/package/<%= slug %>)
 
