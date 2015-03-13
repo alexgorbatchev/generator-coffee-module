@@ -4,6 +4,7 @@ gutil = require 'gulp-util'
 coffee = require 'gulp-coffee'
 istanbul = require 'gulp-istanbul'
 mocha = require 'gulp-mocha'
+watch = require 'gulp-watch'
 
 gulp.task 'coffee', ->
   gulp.src './src/**/*.coffee'
@@ -17,5 +18,8 @@ gulp.task 'test', ['coffee'], ->
       gulp.src(['test/**/*.spec.coffee'])
         .pipe mocha reporter: 'spec', compilers: 'coffee:coffee-script'
         .pipe istanbul.writeReports() # Creating the reports after tests run
+
+gulp.task 'watch', ->
+  gulp.watch './src/**/*.coffee', ['coffee']
 
 gulp.task 'default', ['coffee']
