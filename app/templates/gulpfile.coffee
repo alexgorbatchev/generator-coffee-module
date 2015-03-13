@@ -5,10 +5,12 @@ coffee = require 'gulp-coffee'
 istanbul = require 'gulp-istanbul'
 mocha = require 'gulp-mocha'
 watch = require 'gulp-watch'
+plumber = require 'gulp-plumber'
 
 gulp.task 'coffee', ->
   gulp.src './src/**/*.coffee'
     .pipe coffee({bare: true}).on('error', gutil.log)
+    .pipe plumber() # Pevent pipe breaking caused by errors from gulp plugins
     .pipe gulp.dest './lib/'
 
 gulp.task 'test', ['coffee'], ->
