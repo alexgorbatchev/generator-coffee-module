@@ -20,6 +20,7 @@ gulp.task 'coffee', ->
 gulp.task 'test', ['coffee'], ->
   gulp.src ['lib/**/*.js']
     .pipe(istanbul()) # Covering files
+    .pipe(istanbul.hookRequire()) # Overwrite require so it returns the covered files
     .on 'finish', ->
       gulp.src(['test/**/*.spec.coffee'])
         .pipe mocha reporter: 'spec', compilers: 'coffee:coffee-script'
