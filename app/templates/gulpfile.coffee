@@ -4,7 +4,6 @@ gutil = require 'gulp-util'
 coffee = require 'gulp-coffee'
 istanbul = require 'gulp-istanbul'
 mocha = require 'gulp-mocha'
-watch = require 'gulp-watch'
 plumber = require 'gulp-plumber'
 
 gulp.on 'err', (e) ->

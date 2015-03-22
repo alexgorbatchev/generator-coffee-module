@@ -32,7 +32,6 @@
     "gulp-mocha": "^2.0.0",
     "gulp-plumber": "^1.0.0",
     "gulp-util": "^3.0.0",
-    "gulp-watch": "^4.1.1",
     "mocha": "^2.0.0",
     "sinon": "^1.9.1",
     "sinon-chai": "^2.5.0"
