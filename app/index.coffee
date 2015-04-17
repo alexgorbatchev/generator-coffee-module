@@ -1,5 +1,3 @@
-require 'coffee-errors'
-
 util = require 'util'
 path = require 'path'
 yeoman = require 'yeoman-generator'
@@ -63,7 +61,6 @@ class CoffeeModuleGenerator extends yeoman.generators.Base
   projectfiles: ->
     @template '_package.json', 'package.json'
     @template '_travis.yml', '.travis.yml'
-    @template 'gulpfile.js'
     @template 'gulpfile.coffee'
     @template 'README.md'
     @template 'LICENSE'
